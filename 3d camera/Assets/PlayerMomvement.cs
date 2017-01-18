@@ -6,12 +6,12 @@ public class PlayerMomvement : MonoBehaviour {
     public float speed = 1;
     public float turn = 10000;
 
-	Drone drone;
+
 
 
 	// Use this for initialization
 	void Start () {
-		drone = GameObject.FindGameObjectWithTag ("Drone").GetComponent<Drone> ();
+		
 	
 	}
 	
@@ -36,13 +36,9 @@ public class PlayerMomvement : MonoBehaviour {
 		if (Input.GetKey ("q"))
 			transform.Rotate (0, -turn1, 0);
 
-		//DroneOn ();
+	
 
     }
 
-	public void DroneOn()
-	{
-		if (Input.GetKey ("f"))
-			drone.isOn = true;
-	}
+
 }
