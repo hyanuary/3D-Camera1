@@ -15,3 +15,5 @@ CameraThird This camera is fimiliar with the second camera, but it use the mouse
 - Create an object and set the player PlayerMovement script, so you can move the object around
 - Next, attach any of the scripts for the camera on the main camera. )You don't need to make the camera the child of the player)
 - Use 'WASD' key to move around and 'QE' to turn around
+- Use 'L' and 'O' to change the damping of the camera 
+- Use 'Space' and 'V' to change the offset
