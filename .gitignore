@@ -28,3 +28,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Ignore Files
+git rm --cached 3D-Camera1/3d camera/Library
