@@ -6,9 +6,9 @@ There are 3 script that you can use for the camerea and 1 script for the player.
 
 CameraMovement A dungeon crawler camera, where the camera follow the player like a delayed magnet. Basically, when you move the player, the camera will follow the player with a certain offset, but after a brief momment of not moving the player, the camera will move closer the player. Games for example -> Diablo
  
-CameraMovementSecobd This is a basic TPS(third person camera). It will follow the player when the player move with a certain distance from the player. And the camera will turn as the player turn around. Game for that used this type of camera is Mario Galaxy
+CameraMovementSecobd This is a basic TPS(third person camera). It will follow the player when the player move with a certain distance from the player. And the camera will turn as the player turn around. This camera is great for games that concentrate on exploring areas, rather than shooting. Game for that used this type of camera is Mario Galaxy
 
-CameraThird This camera is fimiliar with the second camera, but it use the mouse to control the direction the player is looking, more like an fps game. Game for example -> any TPS game that uses mouse as your pointer, similar like Uncharted games
+CameraThird This camera is fimiliar with the second camera, but it use the mouse to control the direction the player is looking, more like an fps game. This camera is more suited for shooting TPS game, since it follows the direction of what the player is facing. Game for example -> any TPS game that uses mouse as your pointer, similar like Uncharted games
 
 # How to Use this Script
 
