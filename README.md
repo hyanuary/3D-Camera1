@@ -10,7 +10,7 @@ CameraMovementSecobd This is a basic TPS(third person camera). It will follow th
 
 CameraThird This camera is fimiliar with the second camera, but it use the mouse to control the direction the player is looking, more like an fps game. Game for example -> any TPS game that uses mouse as your pointer, similar like Uncharted games
 
-How to Use this Script
+# How to Use this Script
 
 Create an object and set the player PlayerMovement script, so you can move the object around
 Next, attach any of the scripts for the camera on the main camera. )You don't need to make the camera the child of the player)
