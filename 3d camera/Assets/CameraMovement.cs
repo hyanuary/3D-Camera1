@@ -9,12 +9,13 @@ public class CameraMovement : MonoBehaviour {
 	Vector3 offset;
 
 	void Start() {
-		offset = (transform.position - player.transform.position);
+		
+		offset = (transform.position - player.transform.position) * offsetMultiplier;
 	}
 
 	void LateUpdate() {
 		Vector3 desiredPosition = player.transform.position + offset;
-		Vector3 position = Vector3.Lerp(transform.position, desiredPosition, Time.deltaTime * damping);
+		Vector3 position = Vector3.Lerp(transform.position, desiredPosition , Time.deltaTime * damping);
 		transform.position = position;
 
 		transform.LookAt(player.transform.position);
