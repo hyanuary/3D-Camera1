@@ -4,7 +4,7 @@
 
 There are 3 script that you can use for the camerea and 1 script for the player. Each script have different point of view for how the player can see the mian character in the game.
 
-CameraMovement A dubgeon crawler camera, where the camera follow the player like a delayed magnet. Basicalle, when you move the player, the camera will move a bit late, but after a brief momment, the camera will move closer the player. Games for example -> Diablo
+CameraMovement A dungeon crawler camera, where the camera follow the player like a delayed magnet. Basically, when you move the player, the camera will follow the player with a certain offset, but after a brief momment of not moving the player, the camera will move closer the player. Games for example -> Diablo
  
 CameraMovementSecobd This is a basic TPS(third person camera). It will follow the player when the player move with a certain distance from the player. And the camera will turn as the player turn around. Game for that used this type of camera is Mario Galaxy
 
