@@ -30,4 +30,4 @@ sysinfo.txt
 *.unitypackage
 
 # Ignore Files
-git rm --cached 3D-Camera1/3d camera/Library
+3d camera/Library/*
