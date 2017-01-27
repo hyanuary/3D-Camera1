@@ -30,4 +30,5 @@ sysinfo.txt
 *.unitypackage
 
 # Ignore Files
-3d camera/Library/*
+*/Library/*
+Library/*
